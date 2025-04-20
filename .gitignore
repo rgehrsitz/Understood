@@ -31,7 +31,6 @@ dist/
 build/
 *.md.html
 *.html
-*.md
 output.*
 
 # Git clone temp
@@ -39,3 +38,4 @@ tmp/
 
 # Test data
 testdata/
+mux.md
