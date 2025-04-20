@@ -1,0 +1,8 @@
+# Repository: {{.RepoURL}}
+
+## File Summaries
+
+{{range $file, $summary := .Summaries}}
+### {{$file}}
+{{$summary}}
+{{end}}

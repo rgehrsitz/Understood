@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Repository: {{.RepoURL}}</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    h2 { border-bottom: 1px solid #ccc; }
+    .file-summary { margin-bottom: 2em; }
+  </style>
+</head>
+<body>
+  <h1>Repository: {{.RepoURL}}</h1>
+  <h2>File Summaries</h2>
+  {{range $file, $summary := .Summaries}}
+    <div class="file-summary">
+      <h3>{{$file}}</h3>
+      <pre>{{$summary}}</pre>
+    </div>
+  {{end}}
+</body>
+</html>

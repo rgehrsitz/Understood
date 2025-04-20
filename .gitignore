@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (vendor/ is deprecated, but might appear)
+vendor/
+
+# IDE/editor config
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# OS generated files
+Thumbs.db
+
+# Cache and build artifacts
+.cache/
+*.log
+
+# Output files
+dist/
+build/
+*.md.html
+*.html
+*.md
+output.*
+
+# Git clone temp
+tmp/
+
+# Test data
+testdata/
